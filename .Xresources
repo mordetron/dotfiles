@@ -1,0 +1,80 @@
+URxvt.font: xft:monospace:size=8.7
+URxvt.scrollBar: false
+URxvt.letterSpace: -1
+
+
+
+URxvt.depth:                      32
+URxvt.background:                 #3c4254
+URxvt*foreground:                 #feddd0
+URxvt*scrollBar:                  false
+URxvt*mouseWheelScrollPage:       false
+URxvt*cursorBlink:                true
+URxvt*saveLines:                  5000
+URxvt*blurRadius:                 50
+
+
+! URXvt.geometry: 80x22
+! for 'fake' transparency (without Compton) uncomment the following three lines
+! URxvt*inheritPixmap:            true
+! URxvt*transparent:              true
+! URxvt*shading:                  138
+
+! Makes Control+<Arrow> combination usable in terminal applications
+URxvt.keysym.Control-Up:          \033[1;5A
+URxvt.keysym.Control-Down:        \033[1;5B
+URxvt.keysym.Control-Left:        \033[1;5D
+URxvt.keysym.Control-Right:       \033[1;5C
+
+URxvt.perl-ext-common:            default,matcher
+URxvt.url-launcher:               /usr/bin/xdg-open
+URxvt.matcher.button:             1
+URxvt.matcher.rend.0: Uline Bold fg5
+
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #3c4254, #9c6d9c, #57607a
+rofi.color-normal: #3c4254, #feddd0, #4b5269, #ffd7af, #3c4254
+rofi.color-active: #3c4254, #268bd2, #4b5269, #268bd2, #feddd0
+rofi.color-urgent: #3c4254, #de5d55, #4b5269, #de5d55, #feddd0
+
+! ------------------------------------------------------------------------------
+! special
+*.foreground:   #feddd0
+*.background:   #3c4254
+*.cursorColor:  #feddd0
+
+! black
+*.color0:       #4b5269
+*.color8:       #57607a
+
+! red
+*.color1:       #d8686d
+*.color9:       #ed7278
+
+! green
+*.color2:       #918eb3
+*.color10:      #a19ec7
+
+! yellow
+*.color3:       #ebc6a1
+*.color11:      #ffd7af
+
+! blue
+*.color4:       #b84e46
+*.color12:      #cc564e
+
+! magenta
+*.color5:       #875f87
+*.color13:      #9c6d9c
+
+! cyan
+*.color6:       #f77c6c
+*.color14:      #ff806f
+
+! white
+*.color7:       #fdcbac
+*.color15:      #fdcbac
