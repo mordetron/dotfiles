@@ -81,7 +81,7 @@ highlight Pmenu ctermbg=238 gui=bold
 " width limits
 autocmd BufRead /tmp/mutt-* set tw=72 " mutt limit 72 characters
 
-"vertical line at 80th column
+"vertical line at 80th column, fits my laptop
 set colorcolumn=80
 
 nmap <silent> <leader>s :set nolist!<CR>
