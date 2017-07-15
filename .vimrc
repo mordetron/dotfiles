@@ -5,11 +5,11 @@ set t_Co=256
 if (&t_Co == 256 || &t_Co == 88) && !has('gui_running') &&
         \ filereadable(expand("$HOME/.vim/plugin/guicolorscheme.vim"))
     runtime! plugin/guicolorscheme.vim
-    GuiColorScheme superman
+    GuiColorScheme synthwave
     "GuiColorScheme nucolors
 else
-    colorscheme superman
-    "colorscheme cottonmouse, nucolors and jellybeans are cool
+    colorscheme synthwave
+    "cottonmouse, nucolors and jellybeans are cool
 endif
 
 let g:superman_use_Xresources = 1 "rxvt-u-8
